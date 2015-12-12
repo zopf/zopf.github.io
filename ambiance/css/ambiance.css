@@ -1,0 +1,40 @@
+.clear {
+  float: none;
+  clear: both;
+}
+
+.insta {
+  float: left;
+  margin: 10px;
+  text-align: center;
+}
+
+.insta img {
+  padding: 10px;
+}
+
+.insta.playing img {
+  padding: 0px;
+  border: 10px gray solid;
+}
+
+.insta .tags {
+  height: 1em;
+}
+
+.insta .tags span {
+  display: none;
+}
+
+.insta.playing .tags span {
+  display: inline;
+  color: gray;
+}
+
+#controls {
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  margin: 20px;
+  border: 1px solid gray;
+}
